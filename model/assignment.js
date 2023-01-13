@@ -11,6 +11,8 @@ let AssignmentSchema = Schema({
     remarques: String,
     matiere: String,
     auteur: String,
+    imgProf: String,
+    imgMatiere: String
 });
 AssignmentSchema.plugin(agregation);
 // C'est à travers ce modèle Mongoose qu'on pourra faire le CRUD
